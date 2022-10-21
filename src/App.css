@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext);
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+
+.Navbar {
+    background-color: black;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.Header {
+    display: flex;
+    margin-left: 2rem;
+    list-style: none;
+    margin-top: 0;
+}
+
+.link {
+    padding: 30px;
+}
+
+.Header_heading {
+    color: white;
+}
+
+.Header_heading:hover {
+    color: #e4c919e1;
+}
+
+.Home_img {
+    position: absolute;
+    padding-left: 35em;
+}
+
+.Home_text {
+    color: white;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 80px;
+}
+
+.Home_btn {
+    margin-left: 80px;
+    color: white;
+    background-color: #e4c919e1;
+    font-weight: bold;
+}
+
+.Home_btn,
+button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.Text {
+    margin-left: 40px;
+}
+
+.Container {
+    display: flex;
+    padding: 20px;
+    margin-left: 7em;
+}
+
+.Main_text>h1 {
+    margin-top: -0.5px;
+    padding-left: 4rem;
+}
+
+.Main_p {
+    padding-left: 4rem;
+}
+
+.Te {
+    height: 320px;
+    width: 300px;
+    background-color: rgb(247, 238, 238);
+    margin: 0px 0px 20px 50px;
+    border-radius: 10px;
+}
+
+.Te:hover {
+    background: transparent;
+    transform: translatey(-3%);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Te h1,
+.Te p {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.Te>h1{
+    padding-top: 3rem;
+}
+
+.nn,
+.Footer_Main {
+    background-color: rgba(150, 140, 140, 0.507);
+}
+
+.Footer {
+    background-color: rgb(25, 27, 27);
+    height: 65vh;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+}
+
+@media (min-width:320px) {
+    .Header {
+        margin-left: 0;
+    }
+
+    .link {
+        padding: 15px;
+    }
+
+    .Container {
+        margin: 0;
+        flex-wrap: wrap;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .Text {
+        margin: 0;
+        padding: 20px;
+        padding-left: 0;
+    }
+
+    .Home_img {
+        position: absolute;
+        padding-top: 20rem;
+        right: 0;
+    }
+
+    .Home_img img {
+        height: 400px;
+    }
+
+    .Home_text h1 {
+        margin: 0;
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    .Home_text {
+        margin: 0;
+        padding-left: 40px;
+    }
+
+    .Home_btn {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:641px) {
+    .Header{
+        margin-left:2rem;
+    }
+    .link{
+        padding: 30px;
+    }
+
+
+    .Home_text h1 {
+        margin: 0;
+        font-size: 65px;
+        padding-top: 60px;
+        padding-left: 50px;
+    }
+
+    .Home_img {
+        position: absolute;
+        padding-top: 11rem;
+        right: 0rem;
+    }
+
+    .Home_img img {
+        height: 450px;
+    }
+
+    .Home_btn {
+        margin-left: 90px;
+    }
+
+    .Container {
+        margin-left: 6rem;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width:961px) {
+    .Container {
+        margin-left: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .Home_img {
+        position: absolute;
+        padding-top: 9rem;
+        right: 2rem;
+    }
+
+    .Home_img img {
+        height: 600px;
+    }
+
+}
+
+@media (min-width:1025px) {
+    .Home_text h1 {
+        margin: 0;
+        font-size: 80px;
+        padding-top: 80px;
+        padding-left: 60px;
+    }
+
+    .Home_btn {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width:1281px) {
+    .Home_img {
+        position: absolute;
+        padding-top: 9rem;
+        right: 25rem;
+    }
+
+    .Home_img img {
+        height: 600px;
+    }
+}
